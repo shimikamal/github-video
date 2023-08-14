@@ -1,0 +1,107 @@
+body {
+    background: rgb(16,197,242);
+    background: linear-gradient(90deg, rgba(16,197,242,0.42199655741202735) 0%, rgba(19,251,9,0.33236070307029064) 44%, rgba(237,243,119,0.4416044005492822) 100%);
+    color: rgb(33, 2, 2);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3em;
+}
+#contenant {
+    background-color: white;
+    width: 50%;
+    min-width: 400px;
+    padding: 50px;
+    margin: auto;
+}
+nav,footer {
+    color: white;
+    text-align: center;
+    background-color: rgb(107, 218, 107);
+    padding: 20px;
+    border-bottom: 2px solid;
+    font-size: 1.2em;
+}
+h1 {
+    color: blue;
+    font-size: 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900 bold;
+}
+h2 {
+    color: rgb(26, 160, 26);
+    font-size: 1.6em;
+}
+h3 {
+    color: orange;
+    font-size: 1.3em;
+}
+hr {
+    border-top: 3px chocolate solid;
+    border-bottom: 0px;
+}
+em {
+    font-style: oblique;
+}
+strong {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+dfn,abbr {
+    font-style: oblique;
+    color: blue;
+}
+iframe {
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+ul {
+    line-height: 1.5em;
+    list-style-type: square;
+}
+ol {
+    line-height: 1.5em;
+}
+table {
+    width: 100%;
+    color: aliceblue;
+}
+td {
+    padding: 4px;
+    border: 1px solid;
+    text-align: left;
+    background-color: orange;
+}
+.intro {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+dfn,abbr[title] {
+    background-color: rgb(247, 247, 116);
+}
+/* lien non-visité */
+nav a:link
+{
+color: white ;
+text-decoration: none;
+}
+/* lien visité */
+nav a:visited
+{
+color: white;
+}
+/* souris sur le lien */
+nav a:hover
+{
+color: blue;
+}
